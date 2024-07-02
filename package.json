@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "format": "prettier --write --ignore-unknown",
+    "lint": "next lint",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "**/*": "npm run format"
   },
   "dependencies": {
     "next": "14.2.4",
@@ -19,6 +24,8 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
     "prettier": "3.3.2",
     "typescript": "^5"
   }
