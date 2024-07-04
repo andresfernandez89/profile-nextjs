@@ -13,21 +13,55 @@
 }
 
 .navbar ul {
+  max-width: 1024px;
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 20px;
   padding: 0;
-  margin: 0;
+  margin: auto;
   width: 100%;
+  justify-content: space-around;
+
+  @media (max-width: 425px) {
+    justify-content: space-between;
+  }
+}
+
+.navbar ul div {
+  display: flex;
+  gap: 20px;
 }
 
 .navbar a {
   text-decoration: none;
   color: hsl(var(--background));
   transition: color 0.3s ease;
+  position: relative;
+}
+
+.navbar a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: hsl(var(--primary));
+  transition: width 0.3s ease;
+}
+
+.navbar a:hover::after {
+  width: 100%;
 }
 
 .navbar a:hover {
   color: hsl(var(--primary));
+}
+
+.navbar a.active {
+  color: hsl(var(--primary));
+}
+
+.navbar a.active::after {
+  width: 100%;
 }
