@@ -1,0 +1,9 @@
+.themeSwitcher {
+  padding: 8px 10px;
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
