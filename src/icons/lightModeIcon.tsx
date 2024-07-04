@@ -9,12 +9,12 @@ export default function LightModeIcon(props: SVGProps<SVGSVGElement>) {
       viewBox="0 0 24 24"
       {...props}
     >
-      <g stroke="currentColor" stroke-linecap="round" stroke-width="2">
+      <g stroke="currentColor" strokeLinecap="round" strokeWidth="2">
         <path
           fill="currentColor"
-          fill-opacity="0"
-          stroke-dasharray="34"
-          stroke-dashoffset="34"
+          fillOpacity="0"
+          strokeDasharray="34"
+          strokeDashoffset="34"
           d="M12 7C14.76 7 17 9.24 17 12C17 14.76 14.76 17 12 17C9.24 17 7 14.76 7 12C7 9.24 9.24 7 12 7"
         >
           <animate
@@ -31,7 +31,7 @@ export default function LightModeIcon(props: SVGProps<SVGSVGElement>) {
             values="0;1"
           />
         </path>
-        <g fill="none" stroke-dasharray="2" stroke-dashoffset="2">
+        <g fill="none" strokeDasharray="2" strokeDashoffset="2">
           <path d="M0 0">
             <animate
               fill="freeze"

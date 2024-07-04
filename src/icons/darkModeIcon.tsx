@@ -12,11 +12,11 @@ export default function DarkModeIcon(props: SVGProps<SVGSVGElement>) {
       <g
         fill="none"
         stroke="currentColor"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
       >
-        <g stroke-dasharray="2">
+        <g strokeDasharray="2">
           <path d="M12 21v1M21 12h1M12 3v-1M3 12h-1">
             <animate
               fill="freeze"
@@ -46,10 +46,10 @@ export default function DarkModeIcon(props: SVGProps<SVGSVGElement>) {
       <g
         fill="none"
         stroke="currentColor"
-        stroke-dasharray="4"
-        stroke-dashoffset="4"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeDasharray="4"
+        strokeDashoffset="4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       >
         <path d="M13 4h1.5M13 4h-1.5M13 4v1.5M13 4v-1.5">
           <animate
