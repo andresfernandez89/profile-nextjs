@@ -1,0 +1,54 @@
+.header {
+  background-color: hsl(var(--card));
+  color: hsl(var(--card-foreground));
+  width: 100%;
+}
+
+.profile {
+  padding: 10px;
+  max-width: 1024px;
+  margin: auto;
+  @media (min-width: 425px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+}
+
+.profileImage {
+  border-radius: var(--radius);
+  display: block;
+  margin: auto;
+  margin: 40px auto 80px auto;
+}
+
+.beforeName {
+  max-width: 1024px;
+  margin: auto;
+  padding: 30px;
+  padding-bottom: 15px;
+  padding-top: 0;
+  text-align: center;
+  font-size: 1.5em;
+  @media (min-width: 425px) {
+    font-size: 2em;
+  }
+}
+
+.name {
+  font-size: 2em;
+  color: hsl(var(--primary));
+  display: block;
+  max-width: 1024px;
+  padding: 10px 30px 50px 30px;
+  padding-top: 10px;
+  margin: auto;
+  text-align: center;
+  @media (min-width: 425px) {
+    font-size: 3em;
+  }
+}
+
+.svgWaves {
+  padding-top: 59px;
+}

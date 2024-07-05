@@ -18,7 +18,7 @@
     --primary-foreground: 144.9 80.4% 10%;
     --muted: 0 0% 15%;
     --muted-foreground: 240 5% 64.9%;
-    --border: 240 3.7% 15.9%;
+    --border: 1px solid;
     --input: 240 3.7% 15.9%;
     --ring: 142.4 71.8% 29.2%;
   }
