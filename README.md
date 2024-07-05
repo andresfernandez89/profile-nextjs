@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Profile Next.js
 
-## Getting Started
+## Introduction
 
-First, run the development server:
+Profile Next.js is a project built using Next.js, React, and TypeScript. It includes a robust set of tools for development, testing, and formatting to ensure high code quality and maintainability.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Stack](#stack)
+- [Scripts](#scripts)
+- [Configuration](#configuration)
+- [Links](#links)
+
+## Stack
+
+The project utilizes the following technologies:
+
+- **Next.js**: The React framework for production.
+- **React**: A JavaScript library for building user interfaces.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **ESLint**: A pluggable linting utility for JavaScript and JSX.
+- **Prettier**: An opinionated code formatter.
+- **Husky**: Git hooks made easy.
+- **Jest**: A delightful JavaScript Testing Framework with a focus on simplicity.
+
+## Installation
+
+To install the project, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd profile-nextjs
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+To start the development server, run:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To build the project for production, run:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To start the production server, run:
 
-## Learn More
+```bash
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The following scripts are available in this project:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **dev:** Starts the development server.
+- **build:** Builds the project for production.
+- **start:** Starts the production server.
+- **format:** Formats the code using Prettier.
+- **lint:** Runs ESLint to lint the code.
+- **prepare:** Prepares Husky.
+- **test:** Runs the tests using Jest.
 
-## Deploy on Vercel
+## Configuration
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project uses the following configuration tools and practices:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **ESLint** for linting.
+- **Prettier** for code formatting.
+- **Husky** for managing Git hooks.
+- **Lint-staged** to run Prettier on staged files.
+
+## Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andresfernandez89/)
