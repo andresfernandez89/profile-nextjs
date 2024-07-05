@@ -3,6 +3,9 @@
   padding-top: 5px;
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
+  @media (min-width: 425px) {
+    padding: 30px 120px 30px 120px;
+  }
 }
 
 .myHeading {
@@ -10,4 +13,5 @@
   display: flex;
   align-items: center;
   gap: 15px;
+  margin-bottom: 30px;
 }
