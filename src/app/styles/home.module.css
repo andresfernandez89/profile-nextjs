@@ -16,7 +16,7 @@
 }
 
 .mainContent > section {
-  border: var(--border) hsl(0 0 12%);
+  border: var(--border);
 }
 
 .mainContent > section:target {
