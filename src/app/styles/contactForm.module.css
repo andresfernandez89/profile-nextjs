@@ -1,0 +1,45 @@
+.contactForm {
+  padding: 20px;
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  @media (min-width: 425px) {
+    padding: 30px 120px 30px 120px;
+  }
+}
+
+.form {
+  @media (max-width: 425px) {
+    max-width: 290px;
+  }
+}
+
+.inputOrTextarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: var(--radius);
+  border: 1px solid hsl(var(--border));
+  padding-right: 0px;
+}
+
+.myButton {
+  padding: 10px 20px;
+  background-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+.myButton:hover {
+  background-color: hsl(var(--primary));
+}
+
+.successMessage {
+  color: hsl(var(--primary));
+  font-size: 1.1em;
+  @media (min-width: 425px) {
+    font-size: 1.5em;
+  }
+}
