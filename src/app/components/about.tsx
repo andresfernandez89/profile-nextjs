@@ -4,7 +4,7 @@ import styles from "../styles/about.module.css";
 const About = () => {
   return (
     <section className={styles.about}>
-      <h2 className={styles.myHeading}>
+      <h2 className="heading">
         <ManIcon className={styles.manIcon} />
         Sobre mí
       </h2>

@@ -33,3 +33,11 @@ body {
   color: hsl(var(--foreground));
   margin: 0;
 }
+
+.heading {
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}

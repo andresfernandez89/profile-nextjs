@@ -1,0 +1,30 @@
+.interests {
+  padding: 20px;
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  @media (min-width: 425px) {
+    padding: 30px 120px 30px 120px;
+  }
+}
+
+.myUnorderedList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.myListItem {
+  background: hsl(var(--muted));
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.myListItem:hover {
+  background-color: hsl(var(--accent));
+  border: var(--border);
+  font-weight: bold;
+}
